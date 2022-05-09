@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container { 
+    padding: 30px 0;
+}
+
+main {
+    width: 45%;
+    margin: 0 auto;
+    padding: 25px 30px;
+    background-color: #fff;
+    box-shadow: -3px 3px 12px 3px #00000024;
+    border-radius: 5px;
+
+}
+
+main p {
+    /* Code pour limiter les nombres de ligne */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10;
+    overflow: hidden;
+    /* Fin */
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.img {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+  
